@@ -48,7 +48,7 @@ namespace task_one
                 html = "<!DOCTYPE html>\n<html>\n";
                 if (this.head.Count > 0)
                 {
-                    html += "<head>\n<tr>";
+                    html += "<head>\n<table border=1px><tr>";
                     foreach (string element in this.head)
                     {
                         html += "<th> " + element + " </th>\n";
@@ -71,6 +71,7 @@ namespace task_one
                         }
                         html += "</tr>\n";
                     }
+                    html += " </table>\n";
                 }
                 else
                 {
