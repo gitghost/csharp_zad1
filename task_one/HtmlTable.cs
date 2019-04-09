@@ -71,7 +71,7 @@ namespace task_one
                         }
                         html += "</tr>\n";
                     }
-                    html += " </table>\n";
+                    html += " </table></body>\n";
                 }
                 else
                 {
